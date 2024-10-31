@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions | NextGen Campus</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f2f6f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #001f3f;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            color: aqua;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 400px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #0074D9;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 4rem 1rem;
+            background: linear-gradient(135deg, #0074D9, #00a9f4);
+            color: white;
+        }
+
+        .hero a {
+            background-color: #fff;
+            color: #0074D9;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            margin-top: 2rem;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .hero a:hover {
+            background-color: #0074D9;
+            color: #fff;
+        }
+
+        /* Admissions Info Section */
+        .info-section {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 4rem auto;
+        }
+
+        .info-card {
+            flex: 1;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .info-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Application Form Section */
+        .apply-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .apply-form:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .apply-form label {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .apply-form input, .apply-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .apply-form button {
+            background-color: #001f3f;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .apply-form button:hover {
+            background-color: #0074D9;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #001f3f;
+            color: #fff;
+            padding: 2rem 0;
+        }
+
+        footer h2 {
+            color: #f9f9f9;
+            font-size: 1.5rem;
+        }
+
+        footer p {
+            color: #ddd;
+            font-size: 0.9rem;
+        }
+
+        footer .social-media a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        footer .social-media a:hover {
+            color: #00a9f4;
+        }
+
+        footer .contact-info {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div>
+            <h2>NextGen Campus</h2>
+        </div>
+        <ul>
+            <li><a href="test.html">Home</a></li>
+            <li><a href="features_page.html">Features</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Admissions at NextGen Campus</h1>
+        <p>Join the Future of Education. Apply Now and Secure Your Spot.</p>
+        <a href="#apply-form">Apply Now</a>
+    </section>
+
+    <!-- Admissions Info Section -->
+    <section class="info-section">
+        <div class="info-card">
+            <h2>Why Choose Us?</h2>
+            <p>At NextGen Campus, we offer cutting-edge education, experienced faculty, and diverse programs designed to prepare you for success.</p>
+        </div>
+        <div class="info-card">
+            <h2>Join a Vibrant Community</h2>
+            <p>Experience student life with enriching activities, state-of-the-art facilities, and opportunities to grow both personally and academically.</p>
+        </div>
+    </section>
+
+    <!-- Application Form Section -->
+    <section id="apply-form" style="padding: 4rem 1rem; text-align: center; background-color: #f1f1f1;">
+        <h2>Apply Now</h2>
+
+        <form class="apply-form" action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="course">Course Interested In:</label>
+            <input type="text" id="course" name="course" required>
+
+            <label for="message">Additional Message (Optional):</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 1rem;">
+            <div>
+                <h2>NextGen Campus</h2>
+                <p>&copy; 2024 NextGen Campus. All Rights Reserved.</p>
+            </div>
+            <div class="social-media">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="contact-info">
+                <p>Email: info@nextgencampus.edu</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
